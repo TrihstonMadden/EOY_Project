@@ -1,0 +1,30 @@
+DOCUMENTATION of my EOY project
+by Trihston Madden
+steps i took
+
+1.take camera down
+2. plug ethernet cable from pc to injector
+3. plug ethernet from injector to camera
+4. press and hold black button on the camera while power to camera is unplug then plug in power and keep holding button for longer than 10 secs
+5. change the ip by ifconfig eno1 “the ip” netmask “netmask”
+6. ping 192.168.1.64
+7.web browser go to 192.168.1.64
+8. change ip on camera to 10.183.100.2 netmask 255.255.0.0
+9. set gateway to 10.183.0.1
+10. set dns server to 10.40.0.14
+11. ftp in advance setting
+12. server address 10.183.2.21
+13.become su
+14. systemctl start vsftpd
+15. ftp 10.183.2.21
+16. type in username and password
+17. Set directory structure to save in parent directory
+18. Set parent directory to custom and name of folder in mine “cam”
+19. Set for 30 days picture name
+20. Check upload picture
+21. Save
+22. Go to storage>schedule settings>capture> capture parameters
+23. Set format to jpeg> 1 min
+24. Check enable event-triggered snapshot box
+25. Format jpeg> 60 s capture number 1
+
