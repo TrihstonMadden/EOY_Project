@@ -1,5 +1,8 @@
 DOCUMENTATION of my EOY project
 by Trihston Madden
+
+My goal is to config this camera, and have it send images every minute to a ftp server i set up, and have it list the date when it came into it.
+
 steps i took
 
 1.take camera down
@@ -28,3 +31,4 @@ steps i took
 24. Check enable event-triggered snapshot box
 25. Format jpeg> 60 s capture number 1
 
+The break through that i had was when i figured out the parent guide.(the parent guide is what folder it sends the images too.)
